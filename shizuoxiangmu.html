@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  	<style>
+	body{
+	background:#f7f7f7;
+	font-family:"黑体"
+	}
+/*浮动元素*/
+	.F-1{
+	border: 1px solid #f7f7f7;
+	width: 1000px;
+	height:635px;
+	margin: auto;
+	background: #f7f7f7;
+	}
+	.f-1{
+	border: 1px solid #e6e6e6;
+	width:610px;
+	height:360px;
+	background: #e6e6e6;
+	float: left;
+	margin-bottom: 10px;
+	position:relative;
+	}
+	.f-2{
+	border: 1px solid #e6e6e6;
+	width:375px;
+	height:360px;
+	background: #e6e6e6;
+	float: right;
+	margin-bottom: 10px;
+	position:relative;
+	}
+	.f-3{
+	border: 1px solid #e6e6e6;
+	width:335px;
+	height:260px;
+	background: #e6e6e6;
+	float: left;
+	position:relative;
+	}
+	.f-4{
+	border: 1px solid #e6e6e6;
+	width:209px;
+	height:260px;
+	background: #e6e6e6;
+	float: right;
+	margin-left: 10px;
+	position:relative;
+		}
+/*楼层元素*/
+	.B-1{
+	border-bottom: 2px solid #e6e6e6;
+	width:1000px;
+	height:30px;
+	margin: auto;
+	margin-bottom:5px;
+	margin-top:20px;
+	color:#868686;
+	font-size:24px;
+		}
+/*定位*/
+	.d-1{
+	width:390px;
+	height:320px;
+	margin-left:180px;
+	margin-top:30px;
+	position:absolute;
+	top: 10px;
+	left: 10px;
+	}
+		.d-2{
+	width:290px;
+	height:230px;
+	margin-left:60px;
+	margin-top:90px;
+	position:absolute;
+	top: 10px;
+	left: 10px;
+	}
+	.d-3{
+	width:200px;
+	height:150px;
+	margin-left:125px;
+	margin-top:50px;
+	position:absolute;
+	top: 10px;
+	left: 10px;
+	}
+	.d-4{
+	width:198px;
+	height:136px;
+	margin-left:1px;
+	margin-top:1px;
+	position:absolute;
+	top: 1px;
+	left: 1px;
+	}
+/*文字属性加边框*/
+	.txt-1{
+	border: 1px solid #e6e6e6;
+	width:150px;
+	height:150px;
+	position:absolute;
+	margin: auto;
+	margin-left:30px;
+	margin-top:50px;
+	}
+	.txt-2{
+	border: 1px solid #e6e6e6;
+	width:150px;
+	height:100px;
+	position:absolute;
+	margin: auto;
+	margin-left:30px;
+	margin-top:135px;
+	}
+/*按钮边框属性*/
+	.ptxt-1{
+	width:100px;
+	height:20px;
+	background: #27b1f6;
+	text-align:center;
+	padding: 10px;
+	margin: auto;
+	}
+/*个别字体属性调整*/
+	.ptxt-2{
+	font-size:28px;
+	}
+	.ptxt-3{
+	font-size:10px;
+	color:#666;
+	text-align:center;
+	}
+	.ptxt-4{
+	font-size:22px;
+	color:#27b1f6;
+	text-align:center;
+	}
+	.ptxt-5{
+	color:#fff;
+	text-decoration:none;
+	margin:auto;
+	}
+/*底部四个图标*/
+	.dbbq{
+	border: 1px solid #f7f7f7;
+	width:1000px;
+	height:100px;
+	margin: auto;
+	}
+	.dbbq-1{
+	border: 1px solid #f7f7f7;
+	width:60px;
+	height:60px;
+	margin-left:140px;
+	float:left;
+	}
+	ul{
+		list-style-type: none;
+	}
+/*底部广告*/
+	.dbgg{
+	background: #ffffff;
+	border: 1px solid #ffffff;
+	width:1400px;
+	height:240px;
+	}
+</style>
+ </head>
+ <body>
+ <div align="center">
+	<img src="banner1.png">
+ </div>
+ <div class="B-1"><!--楼层一-->
+	<img src="computer_icon.png">&nbsp;&nbsp;
+	首页推荐/1F
+ </div>
+ <div class="F-1">
+	<div class="f-1"><!--第一张商品图片-->
+		<div class="txt-1">
+			<div>
+				<div class="ptxt-2">Apple MacBook</div> 
+				<div class="ptxt-2">Air 系列</div>
+				<div class="ptxt-3">酷睿双核i5处理器|256GB SSD|8GB内存|英特尔HD显卡620含共享显卡内存</div>
+					<div class="ptxt-4">
+						<p>￥6988.00</p>
+					</div>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img1.png" class="d-1">
+	</div>
+	<div class="f-2"><!--第二张商品图片-->
+		<div class="txt-1">
+			<div>
+				<div class="ptxt-2">小米Air</div> 
+				<div class="ptxt-2">金属超轻薄</div>
+				<div class="ptxt-3">酷睿双核i5处理器|512GB SSD|2GB内存|英特尔HD独立显卡</div>
+					<div class="ptxt-4">
+						<p>￥3488.00</p>
+					</div>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img2.png" class="d-2">
+	</div>
+	<div class="f-3"><!--第三张商品图片-->
+		<div class="txt-1">
+			<div>
+				<div class="ptxt-2">联想E480C</div> 
+				<div class="ptxt-2">轻薄系列</div>
+					<div class="ptxt-4">
+						<p>￥5399.00</p>
+					</div>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="index_hot_study_img1.png" class="d-3">
+	</div>
+	<div class="f-4"><!--第四张商品图片-->
+		<div class="txt-2">
+			<div>
+				<div class="ptxt-3">联想小新700 电竞版游戏本</div>
+						<div class="ptxt-4">￥6299.00</div></br>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img3.png" class="d-4">
+	</div>
+	<div class="f-4"><!--第五张商品图片-->
+		<div class="txt-2">
+			<div>
+				<div class="ptxt-3">戴尔灵越燃7000 轻薄窄边</div>
+						<div class="ptxt-4">￥5199.00</div></br>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img5.png" class="d-4">
+	</div>
+	<div class="f-4"><!--第六张商品图片-->
+		<div class="txt-2">
+			<div>
+				<div class="ptxt-3">华硕RX310 金属超极本</div>
+						<div class="ptxt-4">￥4966.00</div></br>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img4.png" class="d-4">
+	</div>
+ </div>
+ <div class="B-1"><!--楼层二-->
+	<img src="computer_icon.png">&nbsp;&nbsp;
+	首页推荐/2F
+ </div>
+  <div class="F-1">
+	<div class="f-1"><!--第一张商品图片-->
+		<div class="txt-1">
+			<div>
+				<div class="ptxt-2">Apple MacBook</div> 
+				<div class="ptxt-2">Air 系列</div>
+				<div class="ptxt-3">酷睿双核i5处理器|256GB SSD|8GB内存|英特尔HD显卡620含共享显卡内存</div>
+					<div class="ptxt-4">
+						<p>￥6988.00</p>
+					</div>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img1.png" class="d-1">
+	</div>
+	<div class="f-2"><!--第二张商品图片-->
+		<div class="txt-1">
+			<div>
+				<div class="ptxt-2">小米Air</div> 
+				<div class="ptxt-2">金属超轻薄</div>
+				<div class="ptxt-3">酷睿双核i5处理器|512GB SSD|2GB内存|英特尔HD独立显卡</div>
+					<div class="ptxt-4">
+						<p>￥3488.00</p>
+					</div>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img2.png" class="d-2">
+	</div>
+	<div class="f-3"><!--第三张商品图片-->
+		<div class="txt-1">
+			<div>
+				<div class="ptxt-2">联想E480C</div> 
+				<div class="ptxt-2">轻薄系列</div>
+					<div class="ptxt-4">
+						<p>￥5399.00</p>
+					</div>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="index_hot_study_img1.png" class="d-3">
+	</div>
+	<div class="f-4"><!--第四张商品图片-->
+		<div class="txt-2">
+			<div>
+				<div class="ptxt-3">联想小新700 电竞版游戏本</div>
+						<div class="ptxt-4">￥6299.00</div></br>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img3.png" class="d-4">
+	</div>
+	<div class="f-4"><!--第五张商品图片-->
+		<div class="txt-2">
+			<div>
+				<div class="ptxt-3">戴尔灵越燃7000 轻薄窄边</div>
+						<div class="ptxt-4">￥5199.00</div></br>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img5.png" class="d-4">
+	</div>
+	<div class="f-4"><!--第六张商品图片-->
+		<div class="txt-2">
+			<div>
+				<div class="ptxt-3">华硕RX310 金属超极本</div>
+						<div class="ptxt-4">￥4966.00</div></br>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img4.png" class="d-4">
+	</div>
+ </div>
+ <div class="B-1"><!--楼层三-->
+	<img src="computer_icon.png">&nbsp;&nbsp;
+	首页推荐/3F
+ </div>
+  <div class="F-1">
+	<div class="f-1"><!--第一张商品图片-->
+		<div class="txt-1">
+			<div>
+				<div class="ptxt-2">Apple MacBook</div> 
+				<div class="ptxt-2">Air 系列</div>
+				<div class="ptxt-3">酷睿双核i5处理器|256GB SSD|8GB内存|英特尔HD显卡620含共享显卡内存</div>
+					<div class="ptxt-4">
+						<p>￥6988.00</p>
+					</div>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img1.png" class="d-1">
+	</div>
+	<div class="f-2"><!--第二张商品图片-->
+		<div class="txt-1">
+			<div>
+				<div class="ptxt-2">小米Air</div> 
+				<div class="ptxt-2">金属超轻薄</div>
+				<div class="ptxt-3">酷睿双核i5处理器|512GB SSD|2GB内存|英特尔HD独立显卡</div>
+					<div class="ptxt-4">
+						<p>￥3488.00</p>
+					</div>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img2.png" class="d-2">
+	</div>
+	<div class="f-3"><!--第三张商品图片-->
+		<div class="txt-1">
+			<div>
+				<div class="ptxt-2">联想E480C</div> 
+				<div class="ptxt-2">轻薄系列</div>
+					<div class="ptxt-4">
+						<p>￥5399.00</p>
+					</div>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="index_hot_study_img1.png" class="d-3">
+	</div>
+	<div class="f-4"><!--第四张商品图片-->
+		<div class="txt-2">
+			<div>
+				<div class="ptxt-3">联想小新700 电竞版游戏本</div>
+						<div class="ptxt-4">￥6299.00</div></br>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img3.png" class="d-4">
+	</div>
+	<div class="f-4"><!--第五张商品图片-->
+		<div class="txt-2">
+			<div>
+				<div class="ptxt-3">戴尔灵越燃7000 轻薄窄边</div>
+						<div class="ptxt-4">￥5199.00</div></br>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img5.png" class="d-4">
+	</div>
+	<div class="f-4"><!--第六张商品图片-->
+		<div class="txt-2">
+			<div>
+				<div class="ptxt-3">华硕RX310 金属超极本</div>
+						<div class="ptxt-4">￥4966.00</div></br>
+					<div class="ptxt-1">
+						<a href="#" class="ptxt-5">查看详情</a>
+					</div>
+			</div>
+		</div>
+		<img src="study_computer_img4.png" class="d-4">
+	</div>
+ </div>
+<div class="dbbq">
+			<ul class="ptxt-3">
+				<li class="dbbq-1"><img src="icon1.png">
+				品质保障
+				</li>
+				<li class="dbbq-1"><img src="icon2.png">
+				私人定制</li>
+				<li class="dbbq-1"><img src="icon3.png">
+				学员特供</li>
+				<li class="dbbq-1"><img src="icon4.png">
+				专属特权</li>
+			</ul>
+		</div>
+<div class="dbgg">
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+ </body>
+</html>
